@@ -1,4 +1,6 @@
+
 // Collapsible
+
 var coll = document.getElementsByClassName("collapsible");
 
 for (let i = 0; i < coll.length; i++) {
@@ -41,6 +43,7 @@ function getTime() {
 }
 
 // Gets the first message
+
 function firstBotMessage() {
 
     let firstMessage = "How's it going?"
@@ -56,6 +59,7 @@ function firstBotMessage() {
 firstBotMessage();
 
 // Retrieves the response
+
 function getHardResponse(userText) {
 
     let botResponse = getBotResponse(userText);
@@ -67,6 +71,7 @@ function getHardResponse(userText) {
 }
 
 //Gets the text text from the input box and processes it
+
 function getResponse() {
     let userText = $("#textInput").val();
 
@@ -87,6 +92,7 @@ function getResponse() {
 }
 
 // Handles sending text via button clicks
+
 function buttonSendText(sampleText) {
 
     let userHtml = '<p class="userText"><span>' + sampleText + '</span></p>';
@@ -114,6 +120,7 @@ function heartButton() {
 }
 
 // Press enter to send a message
+
 $("#textInput").keypress(function (e) {
 
     if (e.which == 13) {

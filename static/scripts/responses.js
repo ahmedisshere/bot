@@ -2,6 +2,7 @@
 function getBotResponse(input) {
 
     //rock paper scissors
+    
     if (input == "rock") {
         return "paper";
     } 

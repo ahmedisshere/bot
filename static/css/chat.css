@@ -144,7 +144,7 @@
     max-width: 80%;
     margin-right: 10px;
     animation: floatup .5s forwards
-    
+
 }
 
 .botText {
@@ -156,6 +156,7 @@
 }
 
 .botText span {
+
     line-height: 1.5em;
     display: inline-block;
     background: #e0e0e0;
@@ -165,9 +166,11 @@
     max-width: 80%;
     margin-left: 10px;
     animation: floatup .5s forwards
+
 }
 
 @keyframes floatup {
+
     from {
         transform: translateY(14px);
         opacity: .0;
@@ -176,23 +179,32 @@
         transform: translateY(0px);
         opacity: 1;
     }
+
 }
 
 @media screen and (max-width:600px) {
+
     .full-chat-block {
+        
         width: 100%;
         border-radius: 0px;
+
     }
     .chat-bar-collapsible {
+
         position: fixed;
         bottom: 0;
         right: 0;
         width: 100%;
+
     }
+
     .collapsible {
+
         width: 100%;
         border: 0px;
         border-top: 3px solid white;
         border-radius: 0px;
+        
     }
 }
