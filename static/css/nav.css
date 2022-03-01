@@ -10,6 +10,8 @@
     background-size:cover;
     background-position: center center;
     height: 100vh;
+    /* position: sticky;
+    top: 0%; */
   }
   .menu-area li a {
     text-decoration: none;
@@ -24,7 +26,9 @@
   }
   
   nav {
-    position: relative;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
     width: calc(100% - 60px);
     margin: 0 auto;
     padding: 10px 0;
