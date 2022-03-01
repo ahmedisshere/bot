@@ -2,7 +2,7 @@
 function getBotResponse(input) {
 
     //rock paper scissors
-    
+
     if (input == "rock") {
         return "paper";
     } 
@@ -32,6 +32,6 @@ function getBotResponse(input) {
     
     
     else {
-        return "Try asking something else!";
+        return "Try asking something else!?";
     }
 }
