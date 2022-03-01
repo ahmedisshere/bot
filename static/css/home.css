@@ -14,12 +14,13 @@ body {
 
 .image {
 
-    background: url(/images/mountain.jpg) no-repeat center center fixed;
+    background: url(/images/mmm.jpg) no-repeat center center fixed;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 980px;
-    width: 2000px;
+    width: 1900px;
 
 }
