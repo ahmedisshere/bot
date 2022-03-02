@@ -32,10 +32,11 @@
     width: calc(100% - 60px);
     margin: 0 auto;
     padding: 10px 0;
-    background: rgb(118, 32, 231);
+    background: #333;
     z-index: 1;
     text-align: right;
     padding-right: 2%;
+    #333
   }
   
   .logo {
