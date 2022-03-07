@@ -36,7 +36,7 @@
     z-index: 1;
     text-align: right;
     padding-right: 2%;
-    #333
+    /* #333 */
   }
   
   .logo {
@@ -66,9 +66,11 @@
     z-index: 1;
   }
   .menu-area a:hover {
-    /* background: tomato; */
-    background: rgb(0, 141, 99);
+
+    /* background: #02C98D; */
+    background: tomato;
     color: #fff;
+
   }
   
   .menu-area a:hover:after {
