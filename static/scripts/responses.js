@@ -43,6 +43,6 @@ function getBotResponse(input) {
     }
 
     else {
-        return "Try asking something else!?";
+        return "Are you looking for something specific!?";
     }
 }
