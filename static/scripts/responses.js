@@ -32,7 +32,7 @@ function getBotResponse(input) {
         return "Chuck Norris never goes to the dentist because his teeth are unbreakable, His enemies never go to the dentist because they have no teeth";
     }
 
-    else if (input == "another joke?") {
+    else if (input == "tell me another joke") {
 
         return "The dinosaurs looked at Chuck Norris the wrong way once, You know what happened to them!";
     }
