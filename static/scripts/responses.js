@@ -39,7 +39,7 @@ function getBotResponse(input) {
 
     else if (input == "another joke") {
 
-        return "Chuck Norris doesn't wear a watch. He decides what time it is!";
+        return "Chuck Norris doesn't wear a watch, He decides what time it is!";
     }
 
     else if (input == "sing me a song") {
