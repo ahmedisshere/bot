@@ -37,6 +37,11 @@ function getBotResponse(input) {
         return "The dinosaurs looked at Chuck Norris the wrong way once, You know what happened to them!";
     }
 
+    else if (input == "another joke"){
+
+        return "Chuck Norris doesn't wear a watch. He decides what time it is!";
+    }
+
     else if (input == "sing me a song") {
 
         return "There is a treasure in this link -> https://youtu.be/eUYUrjaKxR0";
